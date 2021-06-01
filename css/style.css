@@ -9,6 +9,7 @@
   --btn-click-on-color: #188ce8;
   --btn-portfolio-color: #f5f4fa;
   --team-bcrnd-color: #f5f4fa;
+  --font-btn-accent-color: #2196f3;
 }
 /* BASE RESET */
 h1,
@@ -99,20 +100,13 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--font-paragraph-color);
-}
-.mail-icon:hover,
-.mail-icon:focus {
 }
 
 .smartphone-icon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--font-paragraph-color);
-}
-.smartphone-icon:hover,
-.smartphone-icon:focus {
+  
 }
 
 .mail-link {
@@ -122,11 +116,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--font-paragraph-color);
   margin-right: 50px;
+  fill: var(--font-paragraph-color);
 }
 .mail-link:hover,
 .mail-link:focus {
-  color: var(--font—btn-accent-color);
-  fill: var(--font—btn-accent-color);
+  color: var(--font-btn-accent-color);
+  fill: var(--font-btn-accent-color);
+}
 }
 .studio,
 .portfolio {
