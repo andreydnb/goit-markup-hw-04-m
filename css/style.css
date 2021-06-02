@@ -393,3 +393,17 @@ body {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-adress-container {
+  margin-right: 70px;
+}
+.social-list {
+  display: flex;
+}
+.social-title {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
